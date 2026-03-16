@@ -19,7 +19,8 @@
         pname = "trufflehog";
         version = "0.0.0-dev";
         src = self;
-        vendorHash = "sha256-f1G++AC1p2PboGqj9VQuvkgkfqPSxqSVH9JKh399Jn0="; # COMPUTING
+        proxyVendor = true;
+        vendorHash = "sha256-HB3jD0mNjHFyoHmOxxPJ6UdKbVwC5PJ9d2LHJ3DEhXo=";
         description = "TruffleHog - find leaked credentials and secrets in code repositories";
         homepage = "https://github.com/pleme-io/trufflehog";
       };
